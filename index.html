@@ -316,6 +316,78 @@ function googleTranslateElementInit() {
         </p>
     </div>
 </div>
+<!-- REPLACE YOUR OLD SCRIPT WITH THIS (place before </body>) -->
+<script>
+/* MAIN POPUP FUNCTIONS (TOUR 01) */
+function openPopup() {
+    document.getElementById('popup').style.display = 'flex';
+}
+function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+}
+function openSubPopup() {
+    document.getElementById('subPopup').style.display = 'flex';
+}
+function closeSubPopup() {
+    document.getElementById('subPopup').style.display = 'none';
+}
+
+/* TOUR 02 */
+function openPopup2() {
+    document.getElementById('popup2').style.display = 'flex';
+}
+function closePopup2() {
+    document.getElementById('popup2').style.display = 'none';
+}
+function openSubPopup2() {
+    document.getElementById('subPopup2').style.display = 'flex';
+}
+function closeSubPopup2() {
+    document.getElementById('subPopup2').style.display = 'none';
+}
+
+/* TOUR 03 */
+function openPopup3() {
+    document.getElementById('popup3').style.display = 'flex';
+}
+function closePopup3() {
+    document.getElementById('popup3').style.display = 'none';
+}
+function openSubPopup3() {
+    document.getElementById('subPopup3').style.display = 'flex';
+}
+function closeSubPopup3() {
+    document.getElementById('subPopup3').style.display = 'none';
+}
+
+/* TOUR 04 */
+function openPopup4() {
+    document.getElementById('popup4').style.display = 'flex';
+}
+function closePopup4() {
+    document.getElementById('popup4').style.display = 'none';
+}
+function openSubPopup4() {
+    document.getElementById('subPopup4').style.display = 'flex';
+}
+function closeSubPopup4() {
+    document.getElementById('subPopup4').style.display = 'none';
+}
+
+/* OPTIONAL: close popup when user clicks outside content or presses Esc */
+document.addEventListener('click', function(e) {
+    // if clicked on overlay (class "popup") hide it
+    if (e.target && e.target.classList && e.target.classList.contains('popup')) {
+        e.target.style.display = 'none';
+    }
+});
+document.addEventListener('keydown', function(e) {
+    if (e.key === "Escape") {
+        var popups = document.querySelectorAll('.popup');
+        popups.forEach(function(p){ p.style.display = 'none'; });
+    }
+});
+</script>
 
 <!-- SUB POPUP -->
 <div id="subPopup" class="popup">
@@ -329,59 +401,7 @@ function googleTranslateElementInit() {
         <h3>Day 2</h3>
         <p>Kancheepuram temple visits → Ekambareswarar, Kailasanathar, Varadaraja Perumal, Kamakshi Amman → Tiruttani Murugan → Return to Tirupati.</p>
     </div>
-</div>
-
-<script>
-function openPopup() {
-    document.getElementById('popup').style.display = 'flex';
-}
-function closePopup() {
-    document.getElementById('popup').style.display = 'none';
-}
-function openSubPopup() {
-    document.getElementById('subPopup').style.display = 'flex';
-}
-function closeSubPopup() {
-    document.getElementById('subPopup').style.display = 'none';
-}
-    function openPopup2() {
-    document.getElementById('popup2').style.display = 'flex';
-}
-function closePopup2() {
-    document.getElementById('popup2').style.display = 'none';
-}
-function openSubPopup2() {
-    document.getElementById('subPopup2').style.display = 'flex';
-}
-function closeSubPopup2() {
-    document.getElementById('subPopup2').style.display = 'none';
-}
-
-function openPopup3() {
-    document.getElementById('popup3').style.display = 'flex';
-}
-function closePopup3() {
-    document.getElementById('popup3').style.display = 'none';
-}
-function openSubPopup3() {
-    document.getElementById('subPopup3').style.display = 'flex';
-}
-function closeSubPopup3() {
-    document.getElementById('subPopup3').style.display = 'none';
-
-function openPopup4() {
-    document.getElementById('popup4').style.display = 'flex';
-}
-function closePopup4() {
-    document.getElementById('popup4').style.display = 'none';
-}
-function openSubPopup4() {
-    document.getElementById('subPopup4').style.display = 'flex';
-}
-function closeSubPopup4() {
-    document.getElementById('subPopup4').style.display = 'none';
-}
-</script>
+</div
 
     <!-- TOUR 02 MAIN POPUP -->
 <div id="popup2" class="popup">
