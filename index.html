@@ -239,6 +239,26 @@ function googleTranslateElementInit() {
         </div>
     </div>
 
+    <!-- TOUR 03 CARD -->
+<div class="card">
+    <img src="images/mahabalipuram3.jpg" alt="Mahabalipuram - Kanchipuram Tour" />
+    <div class="card-body">
+        <h2>Mahabalipuram - Kanchipuram (2D/1N)</h2>
+        <p>Perfect 2-day devotional tour covering Mahabalipuram & Kancheepuram temples and heritage spots.</p>
+
+        <div class="prices">
+            <strong>Package Code:</strong> TOUR03<br>
+            4 Seater: Rs. 11,000/-<br>
+            6 Seater: Rs. 16,000/-
+        </div>
+
+        <div class="btn-group">
+            <a href="https://wa.me/919030483891" class="btn" target="_blank">Send Enquiry</a>
+            <a onclick="openPopup3()" class="btn details">View Details</a>
+        </div>
+    </div>
+</div>
+
 
 <!-- MAIN POPUP -->
 <div id="popup" class="popup">
@@ -315,6 +335,18 @@ function closeSubPopup2() {
     document.getElementById('subPopup2').style.display = 'none';
 }
 
+function openPopup3() {
+    document.getElementById('popup3').style.display = 'flex';
+}
+function closePopup3() {
+    document.getElementById('popup3').style.display = 'none';
+}
+function openSubPopup3() {
+    document.getElementById('subPopup3').style.display = 'flex';
+}
+function closeSubPopup3() {
+    document.getElementById('subPopup3').style.display = 'none';
+}
 </script>
 
     <!-- TOUR 02 MAIN POPUP -->
@@ -380,4 +412,70 @@ function closeSubPopup2() {
 </div>
 
 </body>
+
+    <!-- TOUR 03 MAIN POPUP -->
+<div id="popup3" class="popup">
+    <div class="popup-content">
+        <a class="close-btn" onclick="closePopup3()">Close</a>
+        <h2>Package Details – TOUR03</h2>
+        <img src="images/mahabalipuram3.jpg" alt="Mahabalipuram - Kanchipuram">
+
+        <p><strong>Note:</strong> Deluxe, Luxury and 3/4 star accommodation available on request.</p>
+        <p>This package can be customised based on your arrival and departure timings.</p>
+
+        <h3>Itinerary</h3>
+        <p><strong>Day 1:</strong> Tirutani, Kancheepuram</p>
+        <p><strong>Day 2:</strong> Mahabalipuram</p>
+
+        <a class="sub-popup-btn" onclick="openSubPopup3()">Day 1 & Day 2 Full Details</a>
+
+        <h3>Places of Visit</h3>
+        <p>
+            Srinivasa Mangapuram, Chandragiri Fort, Kanipakam, Golden Temple, Tiruvannamalai (Arunachalam),
+            Mahabalipuram (Arjuna's Penance, Five Rathas, Shore Temple, Tiger Cave, Krishna's Butter Ball),
+            Kancheepuram (Ekambareswarar, Kailasanathar, Varadaraja Perumal, Kamakshi Amman)
+        </p>
+
+        <h3>Inclusions</h3>
+        <p>Car Rent, Toll Gates, Parking Charges, State Tax, Driver Allowance & Fuel Charges.</p>
+
+        <h3>Exclusions</h3>
+        <p>Temple Tickets, Accommodation, Food. Driver Food Rs.200 paid by customer.</p>
+
+        <h3>Terms & Conditions</h3>
+        <p>
+            1. Do not keep valuables inside the car.<br>
+            2. Package cost is without GST.<br>
+            3. Darshan tickets must be booked separately on TTD website.
+        </p>
+
+        <div style="margin-top:12px;">
+            <a class="sub-popup-btn" href="https://wa.me/919030483891" target="_blank">Send Enquiry via WhatsApp</a>
+            <p style="margin-top:8px;">Taxi in Tirupati Car Rentals: +91 9030483891 &nbsp; | &nbsp; +91 8801469555</p>
+        </div>
+    </div>
+</div>
+
+<!-- TOUR 03 SUB POPUP -->
+<div id="subPopup3" class="popup">
+    <div class="popup-content">
+        <a class="close-btn" onclick="closeSubPopup3()">Close</a>
+        <h2>Day-wise Full Details – TOUR03</h2>
+
+        <h3>Day 1</h3>
+        <p>
+            Pickup at Tirupati → Srinivasa Mangapuram darshan → Chandragiri Fort visit →
+            Kanipakam Vinayaka Swamy → Visit Golden Temple / Srinivasa Mangapuram areas →
+            Tiruvannamalai (Arunachaleswarar) → Night stay.
+        </p>
+
+        <h3>Day 2</h3>
+        <p>
+            Mahabalipuram sightseeing (Arjuna's Penance, Five Rathas, Shore Temple, Tiger Cave, Krishna's Butter Ball)
+            → Kancheepuram temple visits (Ekambareswarar, Kailasanathar, Varadaraja Perumal, Kamakshi Amman)
+            → Return to Tirupati.
+        </p>
+    </div>
+</div>
+
 </html>
