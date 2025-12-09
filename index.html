@@ -301,6 +301,28 @@ function googleTranslateElementInit() {
     </div>
 </div>
 
+    <!-- TOUR 06 CARD -->
+<div class="card">
+    <img src="images/golden6.jpg" alt="Tour 06 – 3 Days Package" />
+    <div class="card-body">
+        <h2>Kanipakam – Golden Temple – Sripuram – Vellore Fort – Tiruvannamalai – Pondicherry (3D/2N)</h2>
+
+        <p>Devotional & heritage trip with peaceful beach sightseeing in Pondicherry.</p>
+
+        <div class="prices">
+            <strong>Package Code:</strong> TOUR06<br>
+            4 Seater: Rs. 18,500/-<br>
+            6 Seater: Rs. 24,500/-
+        </div>
+
+        <div class="btn-group">
+            <a href="https://wa.me/919030483891" class="btn" target="_blank">Send Enquiry</a>
+            <a onclick="openPopup6()" class="btn details">View Details</a>
+        </div>
+    </div>
+</div>
+
+
 <!-- MAIN POPUP -->
 <div id="popup" class="popup">
     <div class="popup-content">
@@ -418,6 +440,19 @@ function openSubPopup5() {
 }
 function closeSubPopup5() {
     document.getElementById('subPopup5').style.display = 'none';
+}
+/* TOUR 06 */
+function openPopup6() {
+    document.getElementById('popup6').style.display = 'flex';
+}
+function closePopup6() {
+    document.getElementById('popup6').style.display = 'none';
+}
+function openSubPopup6() {
+    document.getElementById('subPopup6').style.display = 'flex';
+}
+function closeSubPopup6() {
+    document.getElementById('subPopup6').style.display = 'none';
 }
 
 </script>
@@ -707,6 +742,70 @@ function closeSubPopup5() {
         <p>
             Pondicherry sightseeing: Aurobindo Ashram, Manakula Vinayagar Temple, Auroville View →
             Return journey to Tirupati.
+        </p>
+    </div>
+</div>
+    
+<!-- TOUR 06 MAIN POPUP -->
+<div id="popup6" class="popup">
+    <div class="popup-content">
+        <a class="close-btn" onclick="closePopup6()">Close</a>
+
+        <h2>Package Details – TOUR06</h2>
+        <img src="images/golden6.jpg" alt="Tour 06">
+
+        <p><strong>Note:</strong> Rooms (Deluxe, Luxury, AC) available on request.</p>
+        <p>Timings can be customized based on arrival/departure.</p>
+
+        <h3>Itinerary</h3>
+        <p><strong>Day 1:</strong> Kanipakam → Golden Temple → Vellore Fort → Tiruvannamalai</p>
+        <p><strong>Day 2:</strong> Tiruvannamalai → Pondicherry Beach → Night Stay</p>
+        <p><strong>Day 3:</strong> Pondicherry sightseeing → Return to Tirupati</p>
+
+        <a class="sub-popup-btn" onclick="openSubPopup6()">View Day 1, Day 2 & Day 3 Details</a>
+
+        <h3>Places of Visit</h3>
+        <p>
+            Kanipakam Vinayaka Temple, Golden Temple Siripuram, Vellore Fort,
+            Tiruvannamalai Arunachalam Temple, Pondicherry Beach, Auroville, Aurobindo Ashram.
+        </p>
+
+        <h3>Inclusions</h3>
+        <p>Car Charges, Toll, Parking, Driver Allowance, Fuel.</p>
+
+        <h3>Exclusions</h3>
+        <p>Food, Rooms, Temple Tickets. Driver food Rs.200/day.</p>
+
+        <div style="margin-top:12px;">
+            <a class="sub-popup-btn" href="https://wa.me/919030483891" target="_blank">
+                WhatsApp Enquiry
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- TOUR 06 SUB POPUP -->
+<div id="subPopup6" class="popup">
+    <div class="popup-content">
+        <a class="close-btn" onclick="closeSubPopup6()">Close</a>
+
+        <h2>Day-wise Itinerary – TOUR06</h2>
+
+        <h3>Day 1</h3>
+        <p>
+            Tirupati pickup → Kanipakam Temple → Golden Temple Siripuram →
+            Vellore Fort → Tiruvannamalai Temple → Night Stay.
+        </p>
+
+        <h3>Day 2</h3>
+        <p>
+            Tiruvannamalai → Pondicherry → Promenade Beach → Aurobindo Ashram →
+            Pondicherry Night Stay.
+        </p>
+
+        <h3>Day 3</h3>
+        <p>
+            Pondicherry sightseeing → Auroville (outer view) → Return to Tirupati.
         </p>
     </div>
 </div>
