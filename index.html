@@ -978,6 +978,23 @@ function closeSubPopup8() {
     </div>
 </div>
 
+<script>
+function sendEnquiry(code, name, price) {
+    var phone = "9154095125";
+
+    var message =
+        "Hello Sir,%0A%0A" +
+        "I am interested in your tour package.%0A%0A" +
+        "Package Code: " + code + "%0A" +
+        "Package Name: " + name + "%0A" +
+        "Price: " + price + "%0A%0A" +
+        "Please share availability and details.%0A" +
+        "Thank you.";
+
+    var url = "https://wa.me/" + phone + "?text=" + message;
+    window.open(url, "_blank");
+}
+</script>
 
 </body>
 </html>
